@@ -1,5 +1,7 @@
 <?php
 
+var_dump('TEST');
+exit;
 
 use App\System\Application;
 
