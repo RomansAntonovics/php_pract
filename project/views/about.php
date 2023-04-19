@@ -1,2 +1,5 @@
 <h1>About page</h1>
-<p>bla-bla-bla</p>
+
+<div class="experimental">
+    <p class="experimental">bla-bla-bla</p>
+</div>

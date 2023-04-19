@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\System\Request;
 
-class PagesContoller extends BaseController
+class PagesController extends BaseController
 {
     /**
      * @param Request $request

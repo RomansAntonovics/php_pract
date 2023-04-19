@@ -51,7 +51,7 @@ class Application extends Singleton
             if($existsAction) {
 
                 $obj = new $controller();
-                $result = $obj->{$action}($this->request, ...$argValues); //теперь всегде будет содержать объект клааса респонс
+                $result = $obj->{$action}($this->request, ...$argValues); //теперь всегда будет содержать объект клааса респонс
 
                 return $result;
             }
