@@ -28,7 +28,7 @@ class Application extends Singleton
         $this->db = new Db($this->cfg->get('db'));
         $this->request = new Request();
         $this->response = new Response();
-        $this->user = User::getInstance(); //на синглотне создан юзер
+        $this->user = User::getInstance(); //на синглтоне создан юзер
 
         require_once ROOT_DIR . '/routes/web.php';
     }

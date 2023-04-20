@@ -104,6 +104,9 @@
                         <a class="nav-link" href="/articles">Articles</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/article_edit">Write&Post</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/about">About</a>
                     </li>
                 </ul>

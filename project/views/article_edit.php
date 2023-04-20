@@ -7,11 +7,11 @@
     <form method="post">
         <label>
             <p>Header:</p>
-            <input type="text" name="articleHeader">
+            <input action="/ArticlesController" type="text" name="articleHeader">
         </label>
         <label>
             <p>Content:</p>
-            <textarea name="articleContent"></textarea>
+            <textarea action="/ArticlesController" name="articleContent"></textarea>
         </label>
     </form>
 </div>
